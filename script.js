@@ -34,4 +34,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     sections.forEach(function (s) { observer.observe(s); });
   }
+
+  // Assemble the contact email at runtime so it doesn't sit in plain text in the page source
+  var emailBtn = document.getElementById('emailBtn');
+  if (emailBtn) {
+    var addr = emailBtn.getAttribute('data-user') + '@' + emailBtn.getAttribute('data-domain');
+    emailBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      window.location.href = 'mailto:' + addr;
+    });
+  }
 });
