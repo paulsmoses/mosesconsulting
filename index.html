@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moses Consulting, LLC — Power, Energy &amp; Sustainability</title>
+<meta name="description" content="Dr. Paul Moses, PhD, SMIEEE — power systems research, diagnostics, and consulting in power quality, smart grid resiliency, and electromagnetic transients.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <img src="https://mosesconsulting.net/wp-content/uploads/2024/07/1-3.png" alt="Moses Consulting mark">
+      <span class="brand-text">Moses Consulting, LLC<span>Power · Energy · Sustainability</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <nav class="links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#services">Services</a>
+      <a href="#smart-grids">Smart Grids</a>
+      <a href="gridlock.html" class="podcast-link">GridLock Podcast</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Power Systems Research &amp; Consulting</p>
+      <h1>Power quality, engineered for a grid under pressure.</h1>
+      <p class="lede">Dr. Paul Moses, PhD, SMIEEE, studies how power grids behave when the world around them gets harder to predict &mdash; distorted networks, renewable integration, and the electromagnetic transients that stress the equipment holding it all together.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn primary">Get in touch</a>
+        <a href="gridlock.html" class="btn teal">Listen to GridLock →</a>
+      </div>
+    </div>
+    <div class="wave-card">
+      <svg viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Waveform illustration transitioning from a distorted signal to a clean sine wave">
+        <line x1="0" y1="100" x2="1000" y2="100" class="wave-baseline"/>
+        <path class="wave-path-distorted" d="M 0.0,82.3 L 2.5,71.0 L 5.0,64.8 L 7.5,63.2 L 10.0,63.3 L 12.5,62.7 L 15.0,61.7 L 17.5,62.4 L 20.0,66.3 L 22.5,71.6 L 25.0,74.8 L 27.5,73.3 L 30.0,67.7 L 32.5,61.2 L 35.0,57.1 L 37.5,55.8 L 40.0,55.3 L 42.5,53.3 L 45.0,50.2 L 47.5,48.7 L 50.0,50.9 L 52.5,56.3 L 55.0,61.8 L 57.5,63.7 L 60.0,61.5 L 62.5,57.4 L 65.0,54.5 L 67.5,53.7 L 70.0,53.1 L 72.5,50.4 L 75.0,45.3 L 77.5,40.5 L 80.0,39.1 L 82.5,42.0 L 85.0,47.0 L 87.5,50.8 L 90.0,52.2 L 92.5,52.9 L 95.0,55.9 L 97.5,62.9 L 100.0,72.1 L 102.5,80.7 L 105.0,87.3 L 107.5,93.1 L 110.0,101.1 L 112.5,112.2 L 115.0,124.6 L 117.5,134.2 L 120.0,138.8 L 122.5,139.0 L 125.0,138.0 L 127.5,138.0 L 130.0,138.6 L 132.5,137.5 L 135.0,133.6 L 137.5,128.4 L 140.0,125.5 L 142.5,127.4 L 145.0,133.4 L 147.5,140.1 L 150.0,144.4 L 152.5,145.8 L 155.0,146.5 L 157.5,148.4 L 160.0,151.2 L 162.5,152.3 L 165.0,149.5 L 167.5,143.5 L 170.0,137.8 L 172.5,135.6 L 175.0,137.9 L 177.5,142.2 L 180.0,145.6 L 182.5,147.1 L 185.0,148.5 L 187.5,152.0 L 190.0,157.5 L 192.5,162.2 L 195.0,163.0 L 197.5,158.9 L 200.0,152.4 L 202.5,146.6 L 205.0,143.0 L 207.5,140.0 L 210.0,134.8 L 212.5,126.3 L 215.0,116.3 L 217.5,107.7 L 220.0,101.8 L 222.5,97.1 L 225.0,90.8 L 227.5,81.7 L 230.0,71.6 L 232.5,64.1 L 235.0,61.1 L 237.5,61.7 L 240.0,63.0 L 242.5,63.0 L 245.0,62.2 L 247.5,62.7 L 250.0,65.8 L 252.5,69.9 L 255.0,71.9 L 257.5,69.6 L 260.0,63.7 L 262.5,57.5 L 265.0,53.7 L 267.5,52.4 L 270.0,51.9 L 272.5,50.2 L 275.0,47.9 L 277.5,47.1 L 280.0,49.8 L 282.5,55.1 L 285.0,60.1 L 287.5,61.7 L 290.0,59.6 L 292.5,55.8 L 295.0,52.8 L 297.5,51.4 L 300.0,50.1 L 302.5,47.3 L 305.0,43.2 L 307.5,40.2 L 310.0,41.1 L 312.5,46.2 L 315.0,53.6 L 317.5,60.5 L 320.0,65.8 L 322.5,70.5 L 325.0,76.8 L 327.5,85.1 L 330.0,94.1 L 332.5,101.3 L 335.0,105.8 L 337.5,109.2 L 340.0,113.5 L 342.5,119.9 L 345.0,126.9 L 347.5,132.3 L 350.0,134.4 L 352.5,134.3 L 355.0,134.1 L 357.5,135.2 L 360.0,136.9 L 362.5,137.7 L 365.0,136.6 L 367.5,134.7 L 370.0,134.2 L 372.5,136.6 L 375.0,141.2 L 377.5,145.9 L 380.0,148.7 L 382.5,149.6 L 385.0,150.1 L 387.5,151.3 L 390.0,153.0 L 392.5,153.4 L 395.0,151.6 L 397.5,147.9 L 400.0,144.6 L 402.5,143.4 L 405.0,144.7 L 407.5,146.9 L 410.0,148.4 L 412.5,148.8 L 415.0,148.9 L 417.5,149.7 L 420.0,151.0 L 422.5,151.3 L 425.0,148.9 L 427.5,143.5 L 430.0,136.7 L 432.5,130.1 L 435.0,124.6 L 437.5,119.5 L 440.0,113.6 L 442.5,106.9 L 445.0,100.1 L 447.5,94.8 L 450.0,91.2 L 452.5,88.6 L 455.0,85.3 L 457.5,81.0 L 460.0,76.1 L 462.5,72.2 L 465.0,69.8 L 467.5,68.5 L 470.0,67.1 L 472.5,64.9 L 475.0,62.3 L 477.5,60.4 L 480.0,59.6 L 482.5,59.4 L 485.0,58.6 L 487.5,56.4 L 490.0,53.4 L 492.5,50.6 L 495.0,48.8 L 497.5,48.1 L 500.0,47.7 L 502.5,47.0 L 505.0,46.1 L 507.5,46.0 L 510.0,47.0 L 512.5,49.0 L 515.0,51.0 L 517.5,52.0 L 520.0,52.1 L 522.5,52.1 L 525.0,52.5 L 527.5,53.7 L 530.0,55.2 L 532.5,56.6 L 535.0,58.0 L 537.5,60.0 L 540.0,63.3 L 542.5,67.9 L 545.0,73.1 L 547.5,78.2 L 550.0,82.8 L 552.5,87.3 L 555.0,91.9 L 557.5,96.8 L 560.0,101.5 L 562.5,105.6 L 565.0,109.0 L 567.5,112.1 L 570.0,115.3 L 572.5,119.0 L 575.0,122.7 L 577.5,126.2 L 580.0,129.1 L 582.5,131.8 L 585.0,134.4 L 587.5,137.2 L 590.0,140.0 L 592.5,142.4 L 595.0,144.3 L 597.5,145.9 L 600.0,147.5 L 602.5,149.2 L 605.0,151.0 L 607.5,152.4 L 610.0,153.4 L 612.5,154.0 L 615.0,154.3 L 617.5,154.5 L 620.0,154.6 L 622.5,154.2 L 625.0,153.4 L 627.5,152.3 L 630.0,151.0 L 632.5,149.6 L 635.0,148.1 L 637.5,146.4 L 640.0,144.4 L 642.5,142.0 L 645.0,139.5 L 647.5,136.8 L 650.0,133.9 L 652.5,130.8 L 655.0,127.4 L 657.5,123.8 L 660.0,120.0 L 662.5,116.3 L 665.0,112.5 L 667.5,108.7 L 670.0,104.8 L 672.5,100.9 L 675.0,97.1 L 677.5,93.3 L 680.0,89.5 L 682.5,85.8 L 685.0,82.1 L 687.5,78.5 L 690.0,75.1 L 692.5,71.7 L 695.0,68.5 L 697.5,65.4 L 700.0,62.5 L 702.5,59.8 L 705.0,57.2 L 707.5,54.9 L 710.0,52.8 L 712.5,51.0 L 715.0,49.3 L 717.5,48.0 L 720.0,46.9 L 722.5,46.0 L 725.0,45.4 L 727.5,45.1 L 730.0,45.0 L 732.5,45.2 L 735.0,45.7 L 737.5,46.4 L 740.0,47.5 L 742.5,48.7 L 745.0,50.2 L 747.5,52.0 L 750.0,54.0 L 752.5,56.2 L 755.0,58.6 L 757.5,61.3 L 760.0,64.1 L 762.5,67.1 L 765.0,70.3 L 767.5,73.6 L 770.0,77.0 L 772.5,80.6 L 775.0,84.2 L 777.5,87.9 L 780.0,91.7 L 782.5,95.5 L 785.0,99.4 L 787.5,103.2 L 790.0,107.1 L 792.5,110.9 L 795.0,114.6 L 797.5,118.3 L 800.0,121.9 L 802.5,125.3 L 805.0,128.7 L 807.5,131.9 L 810.0,135.0 L 812.5,137.8 L 815.0,140.5 L 817.5,143.0 L 820.0,145.3 L 822.5,147.4 L 825.0,149.2 L 827.5,150.8 L 830.0,152.2 L 832.5,153.3 L 835.0,154.1 L 837.5,154.7 L 840.0,155.0 L 842.5,155.0 L 845.0,154.7 L 847.5,154.2 L 850.0,153.4 L 852.5,152.4 L 855.0,151.1 L 857.5,149.6 L 860.0,147.8 L 862.5,145.8 L 865.0,143.5 L 867.5,141.1 L 870.0,138.4 L 872.5,135.5 L 875.0,132.5 L 877.5,129.3 L 880.0,126.0 L 882.5,122.6 L 885.0,119.0 L 887.5,115.3 L 890.0,111.6 L 892.5,107.8 L 895.0,104.0 L 897.5,100.2 L 900.0,96.3 L 902.5,92.5 L 905.0,88.7 L 907.5,84.9 L 910.0,81.3 L 912.5,77.7 L 915.0,74.2 L 917.5,70.9 L 920.0,67.7 L 922.5,64.7 L 925.0,61.8 L 927.5,59.1 L 930.0,56.7 L 932.5,54.4 L 935.0,52.4 L 937.5,50.6 L 940.0,49.0 L 942.5,47.7 L 945.0,46.6 L 947.5,45.8 L 950.0,45.3 L 952.5,45.0 L 955.0,45.0 L 957.5,45.3 L 960.0,45.9 L 962.5,46.7 L 965.0,47.7 L 967.5,49.1 L 970.0,50.6 L 972.5,52.4 L 975.0,54.5 L 977.5,56.8 L 980.0,59.3 L 982.5,61.9 L 985.0,64.8 L 987.5,67.8 L 990.0,71.0 L 992.5,74.4 L 995.0,77.9 L 997.5,81.4 L 1000.0,85.1"/>
+      </svg>
+      <div class="wave-labels">
+        <span>Distorted network</span>
+        <span><b>THD 8.4%</b> → <b>0.6%</b></span>
+        <span>Clean sine</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap two-col">
+    <div class="portrait">
+      <img src="https://mosesconsulting.net/wp-content/uploads/2024/07/23_nsf-career-winners-feb-2023-2.jpg" alt="Dr. Paul Moses, 2023 NSF CAREER award">
+    </div>
+    <div>
+      <p class="eyebrow">About</p>
+      <h2>Dr. Paul Moses, PhD, SMIEEE</h2>
+      <p>Dr. Moses is actively engaged in research spanning renewable energy systems integration, resiliency in smart grids, chaotic and dynamical electromagnetic transient interactions, smart power protection, and the electrical insulation degradation of machinery operating in distorted electrical environments.</p>
+      <p>He earned a BS in Physics and a BEng in Electrical and Computer Engineering, both in 2006, and a PhD in Electrical Power Engineering from Curtin University of Technology in Perth, Western Australia, in 2012. He began his career as an Electrical Engineer for the Defence Science and Technology Group (DSTG), Australian Department of Defence, performing naval research and engineering support for combat systems aboard the Australian Collins Class Submarines at the Garden Island naval base in Western Australia.</p>
+      <p>He later relocated to the United States to join the faculty of the Frank Batten College of Engineering at Old Dominion University in Norfolk, Virginia. He now holds a tenured faculty position at the University of Oklahoma, School of Electrical and Computer Engineering, in Norman, Oklahoma, and serves as an Adjunct Professor at George Washington University's School of Engineering and Applied Science.</p>
+      <p>In 2023, Dr. Moses received the prestigious National Science Foundation CAREER award for his expertise in electromagnetic transient phenomena. He is a Senior Member of the Institute of Electrical and Electronics Engineers (IEEE) and has published widely in his field.</p>
+      <div class="credentials">
+        <span class="tag">PhD, Electrical Power Engineering</span>
+        <span class="tag">NSF CAREER 2023</span>
+        <span class="tag">IEEE Senior Member</span>
+        <span class="tag">Tenured Faculty, OU</span>
+        <span class="tag">Adjunct, GWU</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Research</p>
+      <h2>Where theory meets a live grid.</h2>
+      <p>Detailed electromagnetic transient and dynamic modeling of power devices, diagnostic and condition monitoring of insulation systems, and systems integration of sustainable energy resources.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <span class="num mono">Power Quality</span>
+        <h3>Power quality in power systems</h3>
+        <p>Behavior of power systems, electrical machines, and transformers under distorted and non-ideal operating conditions.</p>
+      </div>
+      <div class="card">
+        <span class="num mono">Grid</span>
+        <h3>Electromagnetic compatibility</h3>
+        <p>Compatibility of inverter-based resources in distribution grids as renewable penetration continues to rise.</p>
+      </div>
+      <div class="card">
+        <span class="num mono">Marine Power</span>
+        <h3>Marine power energy systems</h3>
+        <p>Power engineering for naval and marine platforms, drawing on a career that began aboard the Collins Class Submarines.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Services</p>
+      <h2>Subject matter expertise, applied.</h2>
+      <p>Moses Consulting works with utilities, manufacturers, and research partners on the following areas.</p>
+    </div>
+    <div class="services-wrap">
+      <div>
+        <div class="service-row">
+          <span class="service-mark">—</span>
+          <div>
+            <h3>Power System Analysis</h3>
+            <p>Modeling and evaluation of power system behavior under real and simulated operating conditions.</p>
+          </div>
+        </div>
+        <div class="service-row">
+          <span class="service-mark">—</span>
+          <div>
+            <h3>Diagnostics &amp; Condition Monitoring</h3>
+            <p>Diagnostics and condition monitoring of electrical plant to catch degradation before it becomes failure.</p>
+          </div>
+        </div>
+        <div class="service-row">
+          <span class="service-mark">—</span>
+          <div>
+            <h3>Technical Investigations &amp; Fault Analysis</h3>
+            <p>Root-cause investigation of electrical faults and unexpected system behavior.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="service-row">
+          <span class="service-mark">—</span>
+          <div>
+            <h3>Electrical Safety Planning &amp; Evaluation</h3>
+            <p>Assessment and planning to keep electrical systems and the people around them safe.</p>
+          </div>
+        </div>
+        <div class="service-row">
+          <span class="service-mark">—</span>
+          <div>
+            <h3>Maintenance, Commissioning &amp; Design Audit</h3>
+            <p>Independent review of maintenance practices, commissioning procedures, and system design.</p>
+          </div>
+        </div>
+        <div class="service-row">
+          <span class="service-mark">—</span>
+          <div>
+            <h3>Optimization &amp; Grid Resiliency</h3>
+            <p>Coordination and optimization of smart grid distributed energy resources, plus resiliency and reliability analysis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="smart-grids" class="feature-strip">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Smart Grids</p>
+      <h2>Power. Energy. Sustainability.</h2>
+      <p>Dynamic modeling and simulation of magnetic circuit device nonlinearities, and the disturbances that come with a grid in transition.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <span class="num mono">01</span>
+        <h3>Insulation aging</h3>
+        <p>Aging of electromagnetic devices operating in distorted networks, and what that means for equipment lifespan.</p>
+      </div>
+      <div class="card">
+        <span class="num mono">02</span>
+        <h3>Chaotic transients</h3>
+        <p>Nonlinear, dynamical, and chaotic electromagnetic transients and disturbances across the network.</p>
+      </div>
+      <div class="card">
+        <span class="num mono">03</span>
+        <h3>EV infrastructure</h3>
+        <p>Electric vehicle infrastructure and its integration into an already-strained distribution grid.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="podcast-teaser">
+      <img src="https://mosesconsulting.net/wp-content/uploads/2024/07/power-lines_header-1.jpg" alt="Transmission lines">
+      <div>
+        <p class="eyebrow">The Podcast</p>
+        <h2>GridLock: Engineering in the Real World</h2>
+        <p>Dr. Paul Moses hosts conversations at the intersection of power engineering, research, and the grid we all depend on &mdash; the real-world side of the work behind the journal papers.</p>
+        <a href="gridlock.html" class="btn">Visit the show →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2>Power. Energy. Sustainability.</h2>
+      <p>For consulting inquiries, research collaboration, or speaking requests, reach out directly.</p>
+      <div class="hero-actions">
+        <a href="mailto:paul.s.moses@gmail.com" class="btn primary">Email Dr. Moses</a>
+        <a href="https://www.linkedin.com/in/mosespower/" class="btn">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div>
+      <div class="contact-line"><span>Organization</span><span>Moses Consulting, LLC</span></div>
+      <div class="contact-line"><span>Email</span><span>paul.s.moses@gmail.com</span></div>
+      <div class="contact-line"><span>Web</span><span>www.mosesconsulting.net</span></div>
+      <div class="contact-line"><span>LinkedIn</span><span>in/mosespower</span></div>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap footer-wrap">
+    <span>© 2026 Moses Consulting, LLC — Power, Energy &amp; Sustainability</span>
+    <span><a href="gridlock.html">GridLock: Engineering in the Real World →</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
